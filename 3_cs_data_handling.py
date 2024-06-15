@@ -1,28 +1,3 @@
-#   Task 1:
-
-
-#   new key      #dictionary[new_key] = new_value
-#   update key   #dictionary[existing_key] = new_value
-
-
-# service_tickets = {
-# "Ticket001": {"Customer": "Alice", "Issue": "Login problem", "Status": "open"},
-# "Ticket002": {"Customer": "Bob", "Issue": "Payment issue", "Status": "closed"}
-# }
-
-# #   New Ticket = 007
-# service_tickets["Ticket007:"] = {"Customer": "James Bond", "Issue": "Bad Guy", "Status": "open"}
-
-# #   Update Ticket
-# service_tickets["Ticket001"] = {"Customer": "Alice", "Issue": "Login problem", "Status": "closed"},
-
-# print("Alice verified her security questions & had her password reset #BacktoWork ")
-
-# print("Bob was able to get his direct deposit info approved, and therefore got paid! #BagSecured ")
-
-# print(service_tickets)
-
-
 ticket_submit = input("Would you like to open a new ticket? ")
 
 
@@ -47,9 +22,4 @@ while ticket_submit != 'no':
             pass
         #Cant figure out how to change status
 print(service_tickets)
-
-
-
-
-
 
